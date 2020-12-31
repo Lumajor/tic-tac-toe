@@ -1,0 +1,57 @@
+div#gridContainer {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+}
+
+div.grid-element {
+    border: solid black 1px;
+    padding: 20px 0;
+    height: 150px;
+    line-height: 150px;
+    font-size: 150px;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    border-width: 2px;
+    border-color: #4B3947;
+    background-color: #7D5F6D;
+    color: #39383D;
+}
+
+div.unclicked-div {
+    padding: 20px 0;
+    height: 150px;
+    font-size: 150px;
+}
+
+div#navbar {
+    font-weight: bold;
+    text-align: center; 
+    margin-bottom: 10px;
+}
+
+div.head {
+    text-align: center;
+}
+
+button#submitPlayers {
+    margin-top: 10px;
+    background-color: #918B6E;
+    color: white;
+}
+
+div#flex-container {
+    display: flex;
+    padding: 20px;
+    font-weight: bold;
+}
+
+div#player-inputs {
+    margin-top: 185px;
+    margin-right: 134px;
+    margin-left: 35px;
+}
+
+body {
+    background-color: #E4E2E2;
+    color: #39383D;
+}
